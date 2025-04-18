@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root"></div>
+
+
+    <!-- 1st file is core file of react -->
+    <script 
+    crossorigin 
+    src="https://unpkg.com/react@18/umd/react.development.js">
+    </script>
+
+    <!-- file related to DOM -->
+    <script 
+    crossorigin 
+    src="https://unpkg.com/react-dom@18/umd/react-dom.development.js">
+    </script>
+    
+    <!-- <script>
+        // react code
+        // to create an element ==> it will be done by react core 
+        // syntax ==> React.createElement("tag_name", {we can give attributes here ex: id, classname, etc.,}, "content of tage")
+        const heading= React.createElement("h1", {}, "Hello world wising react");
+
+        // inserting element ==> it will  be done by reactDOM
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+        root .render(heading);
+
+    </script> -->
+
+    <!-- we can write the above code in external file and we can attach it to html file -->
+     <script src="App.js"></script>
+</body>
+</html>
