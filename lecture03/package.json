@@ -1,0 +1,32 @@
+{
+  "name": "namasthe-react",
+  "version": "1.0.0",
+  "description": "This is namaste react by akshay saini",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bolisetti-Naga-Chakra-Ganga/Namasthe-React.git"
+  },
+  "keywords": [
+    "react",
+    "namaste",
+    "react"
+  ],
+  "author": "Bolisetti Naga Chakra Ganga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bolisetti-Naga-Chakra-Ganga/Namasthe-React/issues"
+  },
+  "homepage": "https://github.com/Bolisetti-Naga-Chakra-Ganga/Namasthe-React#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
